@@ -1,0 +1,20 @@
+.slide-arrow{
+  z-index: 2;
+  position: absolute;
+  top: 40%;
+  cursor: pointer;
+  font-size: 60px;
+  transition: 0.3s;
+}
+
+.slide-arrow:hover {
+  color: #e65f78;
+}
+
+.prev {
+  left: 5%;
+}
+
+.next {
+  right: 5%;
+}

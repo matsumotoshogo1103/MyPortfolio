@@ -1,0 +1,456 @@
+.content {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* HEADER START */
+
+header {
+  background-image:url(../images/BACC33AC-DD8E-401D-8944-A4491A8FBD70.JPG);
+  background-color:rgba(255,255,255,0.2);
+  background-blend-mode: lighten;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+
+.header_nav {
+  padding-top: 25px;
+  color: white;
+  background-color: #333333;
+  opacity: 0.9;
+  height: 70px;
+  width: 100%;
+  position: fixed;
+  z-index: 9999;
+}
+
+.header_nav_bar {
+  display: flex;
+}
+
+.nav_title {
+  font-weight: bold;
+  font-size: 24px;
+  transition: 0.3s;
+}
+
+.nav_title:hover {
+  color: #e65f78;
+}
+
+.nav_lists {
+  display: flex;
+  margin-left: auto;
+}
+
+.nav_list {
+  font-size: 18px;
+  margin-left: 25px;
+  cursor: pointer;
+  position: relative;
+  transition: 0.5s;
+}
+
+.nav_list:hover {
+  color: #e65f78;
+}
+
+.nav_list::after {
+  position: absolute;
+  bottom: 2px;
+  left: 0;
+  content: '';
+  width: 100%;
+  height: 2px;
+  background: #e65f78;
+  opacity: 0;
+  visibility: hidden;
+  transition: .3s;
+}
+.nav_list:hover::after {
+  bottom: -4px;
+  opacity: 1;
+  visibility: visible;
+  transition: 0.5s;
+  color: white;
+}
+
+.header_title {
+  padding-top: 200px;
+  color: white;
+  font-size: 80px;
+  text-align: center;
+}
+
+span {
+  color: #e65f78;
+}
+
+/* HEADER END */
+
+/* MAIN START */
+
+/* ABOUT START */
+
+.about {
+  padding: 100px 0;
+  background-color: #2e3135;
+  color: white;
+}
+
+.about_main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about_img {
+  width: 70%;
+  border: 4px solid #a0a0ac;
+}
+
+.about_right {
+  width: 50%;
+}
+
+.about_title {
+  padding: 50px 0;
+  color: #e65f78;
+  font-size: 30px;
+}
+
+.about_name {
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+.about_text {
+  color: #a0a0ac;
+  font-size: 18px;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.sns {
+  margin: 20px 0 0 30px;
+  color: #a0a0ac;
+  transition: 0.5s;
+}
+
+.fa-facebook:hover {
+  color: #3B5998;
+}
+
+.fa-instagram:hover {
+  color: #be3167;
+}
+
+.fa-twitter:hover {
+  color: #1DA1F2;
+}
+
+/* ABOUT END */
+
+/* SERVICE START */
+
+.service {
+  background-color: #26282b;
+  padding: 100px 0;
+  color: white;
+}
+
+.service_title {
+  text-align: center;
+  padding: 30px 0;
+  color: white;
+  font-size: 30px;
+}
+
+.service_text {
+  text-align: center;
+  color: #a0a0ac;
+  margin-bottom: 50px;
+}
+
+.service_cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.service_card {
+  border: 1px solid #a0a0ac;
+  width: 30%;
+  margin-bottom: 30px;
+  padding: 30px;
+  text-align: center;
+}
+
+.service_card:hover {
+  border: 3px solid #a0a0ac;
+}
+
+.icon {
+  color: #a0a0ac;
+  margin-bottom: 10px;
+}
+
+.card_title {
+  font-size: 20px;
+  padding-top: 10px;
+  border-top: 1px solid #e65f78;
+}
+
+/* SERVICE END */
+
+/* PORTFOLIO START */
+
+.portfolio {
+  background-color: #2e3135;
+  padding: 100px 0;
+  color: white;
+}
+
+.portfolio_title {
+  text-align: center;
+  padding: 30px 0;
+  color: white;
+  font-size: 30px;
+}
+
+.portfolio_text {
+  text-align: center;
+  color: #a0a0ac;
+  margin-bottom: 50px;
+}
+
+.portfolio_cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.portfolio_card {
+  width: 45%;
+  background-color: #26282b;
+  margin-bottom: 30px;
+  padding: 10px;
+  text-align: center;
+}
+
+.portfolio_img {
+  width: 90%;
+  margin-bottom: 10px;
+  transition: .3s;
+}
+
+.portfolio_img:hover {
+  width: 100%;
+}
+
+
+.coming {
+  width: 95%;
+  height: 250px;
+  background-color: #2e3135;
+  margin: 0 auto;
+  color: white;
+  font-size: 20px;
+  line-height: 250px;
+}
+
+.portfolio_name {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 10px;
+  color: #e65f78;
+}
+
+.portfolio_invite {
+  text-align: left;
+  color: #a0a0ac;
+}
+
+/* PORTFOLIO END */
+
+/* WORK START */
+
+.work {
+  background-color: #26282b;
+  padding: 100px 0;
+  color: white;
+}
+
+.work_title {
+  text-align: center;
+  padding: 30px 0;
+  color: white;
+  font-size: 30px;
+}
+
+.work_text {
+  text-align: center;
+  color: #a0a0ac;
+  margin-bottom: 50px;
+}
+
+
+.work_img {
+  width: 70%;
+  margin: 0 auto;
+}
+
+/* WORK END */
+
+
+/* CONTACT START */
+
+.contact {
+  background-color: #2e3135;
+  padding: 100px 0;
+  color: white;
+}
+
+.contact_title {
+  text-align: center;
+  padding: 30px 0;
+  color: white;
+  font-size: 30px;
+}
+
+.contact_text {
+  text-align: center;
+  color: #a0a0ac;
+  margin-bottom: 50px;
+}
+
+.contact_items {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.contact_item {
+  margin: 20px 70px;
+}
+
+.contact_item a {
+  display: block;
+  color: #e65f78;
+  padding: 0 .3em;
+  background-image: linear-gradient(to right, rgba(0,0,0,0) 50%, #e65f78 50%);
+  background-position: 0 0;
+  background-size: 200% auto;
+  transition: .3s;
+}
+
+.contact_item a:hover {
+  background-position: -100% 0;
+  color: #fff;
+}
+
+.contact_icon {
+  color: #a0a0ac;
+  margin-bottom: 20px;
+}
+
+.contact_form {
+  text-align: center;
+}
+
+input, textarea {
+  display: block;
+  margin: 0 auto;
+  width: 500px;
+  line-height: 50px;
+  font-size: 20px;
+  background-color: #26282b;
+  padding: 1px 20px;
+  border: 1px solid #a0a0ac;
+  outline: none;
+  color: white;
+}
+
+.form_title {
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+.btn {
+  margin-top: 30px;
+  width: 200px;
+  background-color: #e65f78;
+  cursor: pointer;
+  border: none;
+}
+
+.btn:hover {
+  background-color: #f86c86;
+}
+
+/* CONTACT END */
+
+/* MAIN END */
+
+/* FOOTER START */
+
+footer {
+  background-color: #26282b;
+  color: #a0a0ac;
+  line-height: 70px;
+  text-align: center;
+}
+
+/* FOOTER END */
+
+@media (max-width: 1024px) {
+
+  header {
+    height: 75vh;
+  }
+
+  .header_nav {
+    padding-top: 15px;
+    height: 50px;
+  }
+
+  .nav_title {
+    font-size: 20px;
+  }
+
+  .nav_list {
+    font-size: 16px;
+    margin-left: 18px;
+  }
+
+  .header_title {
+    font-size: 60px;
+    padding-top: 175px;
+  }
+
+  .about_right {
+    width: 100%;
+  }
+
+}
+
+@media (max-width: 599px) {
+
+  header {
+    height: 60vh;
+  }
+
+  .header_title {
+    font-size: 50px;
+    padding-top: 150px;
+  }
+
+}
+
+
+
+
+
+
