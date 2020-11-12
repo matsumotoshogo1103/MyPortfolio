@@ -115,7 +115,7 @@ span {
 }
 
 .about_title {
-  padding: 50px 0;
+  padding-bottom: 30px;
   color: #e65f78;
   font-size: 30px;
 }
@@ -235,7 +235,7 @@ span {
   width: 45%;
   background-color: #26282b;
   margin-bottom: 30px;
-  padding: 10px;
+  padding: 20px;
   text-align: center;
 }
 
@@ -249,17 +249,6 @@ span {
   width: 100%;
 }
 
-
-.coming {
-  width: 95%;
-  height: 250px;
-  background-color: #2e3135;
-  margin: 0 auto;
-  color: white;
-  font-size: 20px;
-  line-height: 250px;
-}
-
 .portfolio_name {
   font-size: 24px;
   text-align: center;
@@ -270,6 +259,10 @@ span {
 .portfolio_invite {
   text-align: left;
   color: #a0a0ac;
+}
+
+.coming {
+  text-align: center;
 }
 
 /* PORTFOLIO END */
@@ -407,8 +400,10 @@ footer {
 
 @media (max-width: 1024px) {
 
+  /* HEADER */
+
   header {
-    height: 75vh;
+    height: 50vh;
   }
 
   .header_nav {
@@ -427,12 +422,42 @@ footer {
 
   .header_title {
     font-size: 60px;
-    padding-top: 175px;
+    padding-top: 150px;
+  }
+
+  /* HEADER */
+
+  /* ABOUT */
+
+  .about_img {
+    width: 80%;
   }
 
   .about_right {
     width: 100%;
   }
+
+  .about_title {
+    font-size: 25px;
+  }
+  
+  .about_name {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .about_text {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+
+  /* ABOUT */
+
+  /* WORK */
+
+
+
+  /* WORK */
 
 }
 
