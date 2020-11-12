@@ -77,7 +77,21 @@ header {
 }
 
 .hamburger {
+  margin-top: 10px;
+  border-top: 3px solid #fff;
+  border-bottom: 3px solid #fff;
+  width: 30px;
+  height: 25px;
+  margin-left: auto;
+  position: relative;
   display: none;
+}
+
+.hamburger_line {
+  border-top: 3px solid #fff;
+  position: absolute;
+  top: 40%;
+  width: 30px;
 }
 
 .header_title {
@@ -479,9 +493,6 @@ footer {
 
   .hamburger {
     display: block;
-    margin-top: 10px;
-    margin-left: auto;
-    line-height: 50px;
   }
 
   .header_title {
