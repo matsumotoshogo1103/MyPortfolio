@@ -76,6 +76,10 @@ header {
   color: white;
 }
 
+.hamburger {
+  display: none;
+}
+
 .header_title {
   padding-top: 200px;
   color: white;
@@ -356,7 +360,7 @@ span {
 input, textarea {
   display: block;
   margin: 0 auto;
-  width: 500px;
+  width: 50%;
   line-height: 50px;
   font-size: 20px;
   background-color: #26282b;
@@ -453,24 +457,137 @@ footer {
 
   /* ABOUT */
 
-  /* WORK */
-
-
-
-  /* WORK */
-
 }
 
 @media (max-width: 599px) {
 
-  header {
-    height: 60vh;
+  /* HEADER */
+
+  .header_nav {
+    height: 50px;
+    padding-top: 0;
+  }
+
+  .nav_title {
+    font-size: 20px;
+    line-height: 50px;
+  }
+
+  .nav_lists {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    line-height: 50px;
   }
 
   .header_title {
-    font-size: 50px;
-    padding-top: 150px;
+    font-size: 40px;
+    padding-top: 100px;
   }
+
+  /* HEADER */
+
+  /* ABOUT */
+
+  .about {
+    padding: 30px 0;
+  }
+
+  .about_main {
+    display: block;
+  }
+
+  .about_left {
+    text-align: center;
+  }
+
+  .about_img {
+    width: 60%;
+  }
+
+  .about_title {
+    padding-top: 20px;
+  }
+
+  .about_right {
+    text-align: center;
+  }
+
+  .sns {
+    margin: 20px 10px;
+  }
+
+  /* ABOUT */
+
+  /* SERVICE */
+
+  .service {
+    padding: 30px 0;
+  }
+
+  .service_card {
+    width: 80%;
+  }
+
+  /* SERVICE */
+
+  /* PORTFOLIO */
+
+  .portfolio {
+    padding: 30px 0;
+  }
+
+  .portfolio_card {
+    width: 100%;
+  }
+
+  /* PORTFOLIO */
+
+  /* WORK */
+
+  .work {
+    padding: 30px 0;
+  }
+
+  .work_img {
+    width: 90%;
+  }
+
+  /* WORK */
+
+  /* CONTACT */
+
+  .contact {
+    padding: 30px 0;
+  }
+
+  .contact_items {
+    margin-bottom: 20px;
+  }
+
+  .contact_item {
+    margin: 0;
+  }
+
+  input, textarea {
+    line-height: 40px;
+    font-size: 16px;
+  }
+
+  /* CONTACT */
+
+  /* FOOTER */
+
+  footer {
+    line-height: 50px;
+    font-size: 12px;
+  }
+
+  /* FOOTER */
 
 }
 

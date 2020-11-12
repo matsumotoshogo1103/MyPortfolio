@@ -19,6 +19,12 @@
   right: 5%;
 }
 
-@media (max-width: 1024px) {
-
+@media (max-width: 599px) {
+  .prev {
+    left: 1%;
+  }
+  
+  .next {
+    right: 1%;
+  }
 }
